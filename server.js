@@ -26,7 +26,7 @@ var articleone={
  <html>
  <head>
      <title>
-          $(title)
+          ${title}
      </title>
      <style>
           <link href="/ui/style.css" rel="stylesheet" />
@@ -38,10 +38,10 @@ var articleone={
             <a href='/'>home</a>
         </div>
         <hr/>
-        <h1> $(heading)</h1>
-        <div>  $(date)</div>
+        <h1> ${heading}</h1>
+        <div>  ${date}</div>
         <div>
-           $(content)
+           ${content}
             
             </div>
         </div>
