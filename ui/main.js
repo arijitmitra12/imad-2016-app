@@ -6,6 +6,6 @@ element.innerHTML ="arijit";
 var img= document.getElementById('image');
 img.onclick = function(){
     
-    img.style.marginleft="130px";
+    img.style.marginLeft="130px";
     
 };
