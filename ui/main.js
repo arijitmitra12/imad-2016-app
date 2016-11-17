@@ -6,8 +6,8 @@ element.innerHTML ="arijit";
 var img= document.getElementById('image');
 var marginLeft=0;
 function moveRight(){   
-    marginleft=marginleft +5;
-    img.style.marginleft =marginleft +'px';
+    marginLeft=marginLeft +5;
+    img.style.marginLeft =marginLeft +'px';
     
 }
 img.onclick = function(){
