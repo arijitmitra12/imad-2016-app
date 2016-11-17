@@ -4,8 +4,15 @@ element.innerHTML ="arijit";
 
 //move the image
 var img= document.getElementById('image');
+var marginLeft=0;
+function moveRight(){   
+    marginleft=marginleft +1;
+    img.style.marginleft =marginleft +'px';
+    
+}
 img.onclick = function(){
     
-    img.style.marginLeft="130px";
+    
+    var interval= setInterval(moveRight,50);
     
 };
