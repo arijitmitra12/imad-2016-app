@@ -6,7 +6,7 @@ element.innerHTML ="arijit";
 var img= document.getElementById('image');
 var marginLeft=0;
 function moveRight(){   
-    marginleft=marginleft +1;
+    marginleft=marginleft +5;
     img.style.marginleft =marginleft +'px';
     
 }
